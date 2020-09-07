@@ -48,7 +48,7 @@ class MovieModel extends MovieEntity {
 // factory method
   factory MovieModel.fromJson(Map<String, dynamic> json) {
     return MovieModel(//"return" Added due to the factory qualifier
-    // We trnsform the data in JSON format
+    // We transform the data in JSON format
       id: json['id'],
       video: json['video'],
       voteCount: json['vote_count'],
