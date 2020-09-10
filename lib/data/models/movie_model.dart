@@ -1,5 +1,6 @@
 import 'package:movieapp/domain/entities/movie_entity.dart';
 
+// 2e étape
 class MovieModel extends MovieEntity {
   // Let's make all the fields final (with "extends MovieEntity")
   final int id;

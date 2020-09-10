@@ -1,5 +1,6 @@
 import 'movie_model.dart';
 
+//3e étape
 class MoviesResultModel {
   
   List<MovieModel> movies;

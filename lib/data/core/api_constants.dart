@@ -1,4 +1,8 @@
+
+//4e étape (bis), on définit dans cette classe les constantes intervenants dans 
+//l'étape 4
 class ApiConstants {
+
   ApiConstants._();   // private constructor
 
   static const String BASE_URL = "https://api.themoviedb.org/3/";

@@ -1,6 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/widgets.dart';
 
+// 1re étape  
 class MovieEntity extends Equatable {
   final String posterPath;
   final int id;

@@ -1,9 +1,8 @@
-import 'dart:convert';
-
 import 'package:movieapp/data/core/api_client.dart';
 import 'package:movieapp/data/models/movie_model.dart';
 import 'package:movieapp/data/models/movies_result_model.dart';
 
+//4e étape
 abstract class MovieRemoteDataSource {
   Future<List<MovieModel>> getTrending();
   Future<List<MovieModel>> getPopular();

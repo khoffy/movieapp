@@ -4,6 +4,7 @@ import 'package:http/http.dart';
 
 import 'api_constants.dart';
 
+// 4e étape (bis), on regroupe dans cette classe le code répétitif de l'étape 4 
 class ApiClient {
   final Client _client;
 
